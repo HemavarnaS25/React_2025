@@ -1,20 +1,23 @@
-ol{
-    display:flex;
+ol {
+    display: flex;
     justify-content: space-around;
     list-style-type: none;
-    margin:0;
-    padding:10px;
-    background-color:deeppink;
-    color:aliceblue;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(25, 196, 239);
+    color: aliceblue;
 }
-.link{
-    text-decoration: none;
-    color:aliceblue;
 
+.link {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
 }
-.link:hover{
-    background-color:aliceblue;
-    color:blueviolet;
-    border-radius: 10px;
-    padding:5px;
+
+.link:hover {
+    background-color: black;
+    color: aquamarine;
+    padding: 10px 14px;
 }
